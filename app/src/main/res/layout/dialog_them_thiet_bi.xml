@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="@string/maThietBi"
+            android:textSize="22sp"/>
+
+        <EditText
+            android:id="@+id/edtThemMaTB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="@string/tenThietBi"
+            android:textSize="22sp"/>
+
+        <EditText
+            android:id="@+id/edtThemTenTB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="@string/xuatXu"
+            android:textSize="22sp"/>
+
+        <EditText
+            android:id="@+id/edtThemXuatXu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="@string/loai"
+            android:textSize="22sp"/>
+
+        <Spinner
+            android:id="@+id/spinnerLoaiThietBi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

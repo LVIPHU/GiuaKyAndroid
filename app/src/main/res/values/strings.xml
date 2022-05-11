@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quản lý thiết bị</string>
+    <string name="title_device">Thiết bị</string>
+    <string name="title_type">Loại thiết bị</string>
+    <string name="title_room">Phòng học</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
