@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/rectangle_border">
+
+    <LinearLayout
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<!--        values.put("USERNAME",accountOld.getUsername());-->
+<!--        values.put("PASSWORD",password);-->
+<!--        values.put("CHUCVU",accountOld.getChucVu());-->
+<!--        values.put("EMAIL",accountOld.getEmail());-->
+<!--        values.put("NAME",accountOld.getName());-->
+
+
+        <TextView
+            android:id="@+id/txtViewNameStaff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="Tên:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtViewChucvuStaff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="Chức vụ"
+            android:textSize="14sp" />
+
+
+
+        <TextView
+            android:id="@+id/txtViewEmailStaff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Email"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFixStaff"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:background="@drawable/fix"
+            android:text=""
+            android:layout_marginRight="10sp"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>

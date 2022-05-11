@@ -5,8 +5,14 @@
         android:icon="@drawable/device_icon"/>
     <item android:id="@+id/type"
         android:title="@string/title_type"
-        android:icon="@drawable/setting_icon"/>
+        android:icon="@drawable/loaithietbi"/>
     <item android:id="@+id/room"
         android:title="@string/title_room"
         android:icon="@drawable/school_icon"/>
+    <item android:id="@+id/borrow"
+        android:title="@string/title_borrow"
+        android:icon="@drawable/borrow_icon"/>
+    <item android:id="@+id/setting"
+        android:title="Tài khoản"
+        android:icon="@drawable/setting_icon"/>
 </menu>

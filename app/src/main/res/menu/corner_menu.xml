@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_add_device"
+        android:title="Thêm thiết bị" />
+    <item android:id="@+id/menu_add_deviceType"
+        android:title="Thêm loại thiết bị" />
+    <item android:id="@+id/menu_add_room"
+        android:title="Thêm phòng học" />
+</menu>

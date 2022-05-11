@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin thiết bị"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <ImageView
+        android:id="@+id/imgViewTB"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="@string/maThietBi"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/txtViewTTMaTB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="@string/tenThietBi"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/txtViewTTTenTB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/xuatXu"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txtViewTTXuatXu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="@string/loai"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/txtViewTTLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/deviceExportLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ReportActivity">
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deviceExportTitle"
+        android:textColor="@color/orange"
+        android:paddingTop="20sp"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_weight="1"
+        android:id="@+id/deviceTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Table Heading -->
+        <TableRow
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/loaiPhong"
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tang"
+                android:textColor="@android:color/background_dark"
+                android:padding="5sp"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ngayMuon"
+                android:textColor="@android:color/black"
+                android:padding="5sp"
+                android:textSize="14sp"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/soLuong"
+                android:textColor="@android:color/black"
+                android:padding="5sp"
+                android:textSize="14sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPhoto"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="@drawable/round_button_1"
+            android:padding="10dp"
+            android:text="@string/btnPhoto"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPDF"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/round_button_1"
+            android:padding="10dp"
+            android:text="@string/btnPDF"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGoBack"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="@drawable/round_button_1"
+            android:padding="10dp"
+            android:text="@string/btnGoBack"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

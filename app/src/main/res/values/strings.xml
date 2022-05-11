@@ -3,6 +3,44 @@
     <string name="title_device">Thiết bị</string>
     <string name="title_type">Loại thiết bị</string>
     <string name="title_room">Phòng học</string>
+    <string name="title_borrow">Mượn TB</string>
+    <string name="title_statistic">Thống kê</string>
+    <string name="deviceExportTitle">THÔNG TIN SỬ DỤNG THIẾT BỊ</string>
+    <string name="maThietBi">Mã thiết bị</string>
+    <string name="tenThietBi">Tên thiết bị</string>
+    <string name="xuatXu">Xuất xứ</string>
+    <string name="loai">Loại</string>
+    <string name="maLoai">Mã loại</string>
+    <string name="tenLoai">Tên loại</string>
+    <string name="maPhong">Mã phòng</string>
+    <string name="loaiPhong">Loại phòng</string>
+    <string name="tang">Tầng</string>
+    <string name="ngayMuon">Ngày sử dụng</string>
+    <string name="soLuong">Số lượng</string>
+    <string name="btnHuy">Hủy</string>
+    <string name="btnLuu">Lưu</string>
+    <string name="btnPhoto">PNG</string>
+    <string name="btnPDF">PDF</string>
+    <string name="btnGoBack">Thoát</string>
+    <string name="ChonAnh">Chọn ảnh: </string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
 </resources>
